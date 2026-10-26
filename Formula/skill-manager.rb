@@ -1,24 +1,24 @@
 class SkillManager < Formula
   desc "Portable skill management for Codex, Cursor, and Antigravity"
   homepage "https://github.com/Mel6502-AI/homebrew-skill-manager"
-  version "1.0.0-rc.1"
+  version "1.0.0"
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0-rc.1/skill-manager_1.0.0-rc.1_darwin_arm64.tar.gz"
-      sha256 "398143c62b3bc76910c53ae5e506b4485bbd3804ee997831182acc860c6285a9"
+      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0/skill-manager_1.0.0_darwin_arm64.tar.gz"
+      sha256 "ac7a9da778aef21f8a7fe11d6d3ce7c428cb1993858824c054f08eb5c67d4fe1"
     else
-      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0-rc.1/skill-manager_1.0.0-rc.1_darwin_amd64.tar.gz"
-      sha256 "f97ba7483d0be5fe76245f344441eb163da159e0f4bfc1ec3e0337b9f9ddd6dc"
+      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0/skill-manager_1.0.0_darwin_amd64.tar.gz"
+      sha256 "83722434937af02e02f708ebfcdee294c0c0366c77d3492396596d79dee47af8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0-rc.1/skill-manager_1.0.0-rc.1_linux_arm64.tar.gz"
-      sha256 "51453100d4dfb05d39d25e186ec4e2cdd4a55452e0650ca9c7d57d8fad783d75"
+      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0/skill-manager_1.0.0_linux_arm64.tar.gz"
+      sha256 "3de28f15e0afcfa5c84af74650668510a76ff752f3085beb0002084cf0bb1678"
     else
-      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0-rc.1/skill-manager_1.0.0-rc.1_linux_amd64.tar.gz"
-      sha256 "d0522b8b6672f22387487f58a30f3b81bd1e9f974941d7c52d2543c1b86679c3"
+      url "https://github.com/Mel6502-AI/homebrew-skill-manager/releases/download/v1.0.0/skill-manager_1.0.0_linux_amd64.tar.gz"
+      sha256 "c972d934fa6bd3a6e434378144ed00f5ed908b1feaf4faec5473242cb9acc743"
     end
   end
 
